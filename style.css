@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+/*Add a cover background picture for the featured part with a fixed height*/
+/* freenaturestock.com for free photos */
+.jumbotron {
+  background: url(/AppLandingPage/images/bg1.jpg) center center;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*set the size of the logo*/
+.logo {
+  width: 75px;
+  height: 75px;
+}
